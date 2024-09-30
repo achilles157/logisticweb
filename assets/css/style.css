@@ -5,7 +5,6 @@ body {
 
 .bg-nav {
   background-color: #31316a; /* Ganti dengan warna utama */
-  position: sticky;
 }
 
 /* Warna teks */
@@ -130,7 +129,10 @@ a:hover {
 }
 
 .feature-icon-1 {
+  background-color: #31316a;
   margin-bottom: 1rem;
+  margin: 0 auto;
+  display: block;
 }
 
 .card h3 {
@@ -139,9 +141,4 @@ a:hover {
 
 .card p {
   color: #212529; /* Warna teks konten dalam kartu */
-}
-
-.feature-icon-1 {
-  margin: 0 auto;
-  display: block;
 }
