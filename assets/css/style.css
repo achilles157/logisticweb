@@ -1,10 +1,20 @@
 body {
   font-family: Raleway, sans-serif;
-  background: #f6f8fd;
+  background: #f6f8fd; /* Tetap dengan warna terang untuk kontras */
 }
 
 .bg-nav {
-  background-color: #f6f8fd;
+  background-color: #31316a; /* Ganti dengan warna utama */
+  position: sticky;
+}
+
+/* Warna teks */
+h1, h2, h3, h4, h5, h6 {
+  color: #31316a; /* Warna heading */
+}
+
+p, a {
+  color: #212529; /* Warna paragraf dan teks lainnya */
 }
 
 .mt--2 {
@@ -16,15 +26,27 @@ body {
   opacity: .25;
 }
 
+a {
+  color: #31316a; /* Oranye untuk link */
+}
+
+a:hover {
+  color: #31316a; /* Warna merah tua untuk hover */
+}
+
 .navbar-light .navbar-nav .nav-link {
-  color: #212529 !important;
+  color: #f6f8fd !important; /* Ubah warna font navbar menjadi putih agar kontras dengan warna navbar */
   font-size: 16px;
   font-weight: 600;
   transition: all 0.4s;
 }
 
+.navbar-brand span.text-body.fs-4.fw-bolder {
+  color: #f6f8fd !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #0d6efd !important;
+  color: #ffcc00 !important; /* Warna hover yang cerah sebagai aksen */
 }
 
 .feature-icon-1 {
@@ -35,13 +57,25 @@ body {
   height: 5rem;
   font-size: 3rem;
   color: #fff;
+  background-color: #31316a; /* Warna background untuk fitur ikon */
   border-radius: 100%;
 }
 
+/* Tombol utama */
+.btn-primary {
+  background-color: #31316a; /* Warna utama untuk tombol */
+  border-color: #31316a;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc00; /* Aksen hover untuk tombol */
+  border-color: #ffcc00;
+}
+
 .btn-social-media {
-  color: #31316a;
-  background-color: #cdcfdf;
-  border-color: #cdcfdf;
+  color: #f6f8fd; /* Warna font putih untuk sosial media */
+  background-color: #31316a; /* Warna tombol sosial media */
+  border-color: #31316a;
   width: 2rem;
   height: 2rem;
   padding: 1.2rem;
@@ -53,28 +87,28 @@ body {
 }
 
 .btn-social-media:hover {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  color: #ffcc00; /* Aksen hover kuning */
+  background-color: #212529; /* Warna hover menjadi abu gelap */
+  border-color: #212529;
 }
 
 /* Footer */
-.footer .copyright a {
-  color: #ee5050;
+.footer {
+  background-color: #31316a; /* Background footer sama dengan warna utama */
+  color: #f6f8fd; /* Warna font putih */
+}
+
+.footer a {
+  color: #ffcc00; /* Aksen untuk link di footer */
   text-decoration: none;
 }
 
-.footer .copyright a:hover {
-  color: #eb2d2d;
+.footer a:hover {
+  color: #f6f8fd; /* Warna hover link putih */
 }
 
-.footer .link a {
-  color: #212529;
-  text-decoration: none;
-}
-
-.footer .link a:hover {
-  color: #0d6efd;
+.footer .copyright {
+  color: #f6f8fd;
 }
 
 .row-cols-1 {
@@ -87,11 +121,12 @@ body {
 }
 
 .card {
-  height: 100%;
+  background-color: #ffffff; /* Tetap putih untuk kontras */
+  border-color: #31316a;
 }
 
 .card-body {
-  padding: 1.5rem;
+  color: #31316a;
 }
 
 .feature-icon-1 {
@@ -99,11 +134,11 @@ body {
 }
 
 .card h3 {
-  margin-bottom: 0.5rem;
+  color: #31316a;
 }
 
 .card p {
-  margin-bottom: 1.5rem;
+  color: #212529; /* Warna teks konten dalam kartu */
 }
 
 .feature-icon-1 {
